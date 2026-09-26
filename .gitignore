@@ -1,0 +1,34 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment files (keep only if you create one later)
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Model/data outputs if you don't want them committed
+# Data/*.csv
+# model/*.pkl
+
+# VS Code settings
+.vscode/
+
+# Python logs
+*.log
+
+Data/Traffic_Violations.csv
+Data/cleaned_stop_level_dataset.csv
+Notebook/catboost_info/
